@@ -104,24 +104,30 @@ header {
  }
 
    /* HERO*/
-   @media only screen and (min-width: 320px) {
-     .hero {
-       width:100%
-     }
-   @media only screen and (min-width: 768px) {
-     .hero {
-       width:100%;
-    }
+   @media TV and (min-width: 1400px)
+and (max-width:1920px) {
+
+  .hero {
+    text-align: center;
+    display:block;
+    position: relative;
   }
-   @media (min-width: 992px) {
-     .hero {
-       width:970px;
-   }
- }
-   @media (min-width: 1200px) {
-    .hero{
-      width: 1170px;
-    }
+  .hero h1 {
+    font-size:144px;
+    font-weight: normal;
+    margin:95px 0 0;
+  }
+  .hero p {
+    font-size: 66px;
+    line-height: 78px;
+    font-weight: 100;
+    margin:10px 0 40px;
+  }
+  .hero img {
+    display: block;
+    margin:3em auto 0;
+  }
+} 
 
    header .hero {
    text-align: center;
@@ -146,10 +152,6 @@ header {
    display: block;
    margin:3em auto 0;
 
-
-
-
-
  }
  /* BUTTONS */
  .btn {
@@ -161,8 +163,9 @@ header {
    background: #FF7177;
    border: 2px solid #FF7177;
    box-shadow: 0px 4px 0px 0px #C35559;
- }
 
+
+ }
 
  /* BENEFITS */
  .benefits {
@@ -392,3 +395,4 @@ header {
     footer .logo{
       padding: 2em 0 2em 1.5em;
     }
+  }
