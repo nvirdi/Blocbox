@@ -444,7 +444,10 @@ and (max-width:1920px) {
    text-align: center;
    margin-right:8px;
  }
-
+/* LEFT NAVBAR LINKS*/
+a:active {
+    background-color: #CBF1E7;
+}
  /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
    position:absolute;
@@ -492,7 +495,7 @@ and (max-width:1920px) {
    font-weight: 100;
    margin:0 0 30px;
    font-size: 36px;
-   color: #3498DB;
+   color: #5871BB;
    line-height: 44px;
    float: left;
    display:inline-block;
@@ -571,14 +574,14 @@ and (max-width:1920px) {
    right:0;
  }
  .item-box h2 {
-   font-family: 'Lato', Helvetica, Arial, sans-serif;
+   font-family: 'Roboto', Helvetica, Arial, sans-serif;
    font-weight: 700;
    font-size: 15px;
    line-height: 17px;
    margin:0;
  }
  .item-box h2 a {
-   color: #3498DB;
+   color: #5871BB;
    text-decoration: none;
  }
  .item-box h2 img {
@@ -594,4 +597,3 @@ and (max-width:1920px) {
    line-height: 18px;
    margin:5px 0 0;
  }
- 
