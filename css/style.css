@@ -671,14 +671,11 @@ a:active {
  dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
   position: absolute;
-  top: 100%;
-  right:0; /* dropdown left or right */
-  z-index: 1000;
-  display: none;
-  min-width: 100px;
-  list-style: none;
-  padding: 20px;
-  margin: 20px 0 0;
+  z-index:1000;
+  min-width:150px;
+  list-style:none;
+  padding:0;
+  margin:0;
 }
 .dropit .dropit-open .dropit-submenu {
    display: block;
@@ -694,7 +691,7 @@ a:active {
   border-color: #FFFFFF transparent;
   display: block;
   width: 0;
-  z-index: 1;
+  z-index: 1000;
   top: -8px;
   right: 10px;
  }
@@ -713,15 +710,12 @@ a:active {
  }
  /*Settings Menu*/
  .left-nav .settings .dropit .dropit-submenu {
-   position:absolute;
-   top:-150px;
-   right: 0;/*dropdown left or right*/
-   z-index: 1000;
-   display:inline-block;
-   min-width:125px;
-   list-style:none;
+   top:inherit;
+   bottom: 100%;
    padding:20px;
-   margin:20px 0 0;
+   position:absolute;
+   z-index:1;
+
  }
  .left-nav .settings .dropit .dropit-open .dropit-submenu:after{
    content: " ";
@@ -740,16 +734,3 @@ a:active {
 
 
  }
- /* Rectangle 10: */
-background: rgba(255,255,255,0.40);
-border: 1px solid #979797;
-/* : */
-font-family: FontAwesome;
-font-size: 18px;
-color: #5871BB;
-letter-spacing: 0.41px;
-/* : */
-font-family: FontAwesome;
-font-size: 18px;
-color: #2BFDC4;
-letter-spacing: 0.41px;
