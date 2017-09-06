@@ -582,6 +582,10 @@ a:active {
    overflow: hidden;
    padding:20px;
  }
+
+
+
+ }
  /* Larger Mobile Devices */
   @media (min-width:460px) {
     .content {
@@ -709,12 +713,17 @@ a:active {
   font-weight:100;
  }
  /*Settings Menu*/
+ .left-nav .settings .dropit {
+   float: left;
+ }
+
  .left-nav .settings .dropit .dropit-submenu {
    top:inherit;
    bottom: 100%;
    padding:20px;
    position:absolute;
    z-index:1;
+
 
  }
  .left-nav .settings .dropit .dropit-open .dropit-submenu:after{
@@ -728,9 +737,8 @@ a:active {
    z-index: 1;
    top: -8px;
    right: 10px;
+   float:left;
  }
  .left-nav .settings .dropit .dropit-open .dropit-submenu li a {
    float:left;
-
-
  }
